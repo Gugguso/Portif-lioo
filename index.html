@@ -43,11 +43,10 @@
       <section id="inicio" class="hero" aria-labelledby="titulo-principal">
         <div class="hero-inner">
           <div class="retrato">
-            <img
-              src="WhatsApp Image 2026-10-24 at 06.14.04.jpeg"
-              alt="Gustavo Sobral"
-              fetchpriority="high"
-            />
+            <svg class="retrato-icone" viewBox="0 0 96 96" aria-hidden="true">
+              <circle cx="48" cy="33" r="15" />
+              <path d="M20 78c2-17 12-25 28-25s26 8 28 25" />
+            </svg>
           </div>
           <div class="hero-conteudo">
             <p class="eyebrow">Olá, eu sou</p>
@@ -70,17 +69,64 @@
           <h2 id="titulo-projetos">Projetos</h2>
           <p>Projetos acadêmicos e pessoais que estou desenvolvendo.</p>
         </div>
-        <article class="projeto-em-andamento">
-          <span class="projeto-status">01 / Projeto pessoal</span>
-          <h3>Meu portfólio</h3>
-          <p>
-            Site pessoal desenvolvido com HTML, CSS e JavaScript para apresentar
-            minha formação, competências e currículo.
-          </p>
-          <a href="https://github.com/Gugguso" target="_blank" rel="noopener noreferrer">
-            github.com/Gugguso
-          </a>
-        </article>
+        <div class="grade-projetos">
+          <article class="projeto-em-andamento">
+            <span class="projeto-status">01 / Projeto pessoal</span>
+            <h3>Nexus Hardware</h3>
+            <p>
+              E-commerce de peças e componentes para computador, com busca,
+              filtros por categoria, favoritos, carrinho e área de conta.
+            </p>
+            <ul class="projeto-recursos">
+              <li>Catálogo de hardware</li>
+              <li>Favoritos e carrinho</li>
+              <li>Login demonstrativo</li>
+            </ul>
+            <a
+              class="botao"
+              href="https://nexushardware-three.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Acessar site
+            </a>
+          </article>
+          <article class="projeto-em-andamento projeto-doces">
+            <div class="projeto-galeria" aria-label="Produtos da loja bolosdabeth">
+              <img
+                src="assets/bolosdabeth/biscoito-petit-four.jpeg"
+                alt="Biscoitos Petit Four com geleia"
+              />
+              <img
+                src="assets/bolosdabeth/biscoito-palitinho-amanteigado.jpeg"
+                alt="Biscoitos palitinhos amanteigados"
+              />
+              <img
+                src="assets/bolosdabeth/argolinha-de-manteiga.jpeg"
+                alt="Argolinhas de manteiga"
+              />
+            </div>
+            <span class="projeto-status">02 / Projeto pessoal</span>
+            <h3>bolosdabeth</h3>
+            <p>
+              Loja virtual de biscoitos artesanais com cardápio, filtros por
+              categoria, carrinho de compras e opções de entrega ou retirada.
+            </p>
+            <ul class="projeto-recursos">
+              <li>Catálogo responsivo</li>
+              <li>Carrinho interativo</li>
+              <li>Pedidos pelo WhatsApp</li>
+            </ul>
+            <a
+              class="botao"
+              href="https://site-biscotios.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Acessar site
+            </a>
+          </article>
+        </div>
       </section>
 
       <section
